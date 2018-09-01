@@ -7,7 +7,7 @@ import (
 
 	"sync"
 
-	"github.com/eoscanada/eos-go"
+	"github.com/snakewarhead/eos-go"
 )
 
 type Proxy struct {

@@ -1,7 +1,7 @@
 package system
 
 import (
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/snakewarhead/eos-go"
 )
 
 // BlockchainParameters are all the params we can set through `setparams`.

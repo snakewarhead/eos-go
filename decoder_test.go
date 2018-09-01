@@ -10,7 +10,7 @@ import (
 
 	"fmt"
 
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/snakewarhead/eos-go/ecc"
 	"github.com/stretchr/testify/assert"
 )
 

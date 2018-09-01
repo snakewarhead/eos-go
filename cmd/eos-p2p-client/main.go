@@ -6,10 +6,10 @@ import (
 
 	"encoding/hex"
 
-	"github.com/eoscanada/eos-go/p2p"
+	"github.com/snakewarhead/eos-go/p2p"
 )
 
-var p2pAddr = flag.String("p2p-addr", "peering.mainnet.eoscanada.com:9876", "P2P socket connection")
+var p2pAddr = flag.String("p2p-addr", "peering.mainnet.snakewarhead.com:9876", "P2P socket connection")
 var chainID = flag.String("chain-id", "aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906", "Chain id")
 var networkVersion = flag.Int("network-version", 1206, "Network version")
 

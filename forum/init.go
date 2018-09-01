@@ -1,6 +1,6 @@
 package forum
 
-import eos "github.com/eoscanada/eos-go"
+import eos "github.com/snakewarhead/eos-go"
 
 func init() {
 	eos.RegisterAction(AN("eosforumtest"), ActN("post"), Post{})
