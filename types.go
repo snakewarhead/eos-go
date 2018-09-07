@@ -393,6 +393,10 @@ func (t *HexBytes) UnmarshalJSON(data []byte) (err error) {
 
 type SHA256Bytes []byte // should always be 32 bytes
 
+func (t *SHA256Bytes) Encode() string {
+	return hex.EncodeToString(*t)
+}
+
 func (t SHA256Bytes) MarshalJSON() ([]byte, error) {
 	return json.Marshal(hex.EncodeToString(t))
 }
